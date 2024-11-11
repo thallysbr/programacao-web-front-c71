@@ -1,0 +1,97 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#titulo {
+  font-family: Georgia, serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+}
+
+header figure img {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.contato {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.contato li {
+  margin: 5px 0;
+  color: white;
+}
+
+.contato li i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+a[target="_blank"] {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  color: #2c3e50;
+  text-align: center;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: justify;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+ul,
+ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
